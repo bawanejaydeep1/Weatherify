@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Libre+Baskerville&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@400;500;600&family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+body {
+    flex-direction: column;
+    min-height: 1vh;
+    display: flex;
+    margin: 0;
+}
+
+.FooterNav {
+    background-color: #35373b;
+    padding: 10px 100px;
+    color: #d6c7b9;
+    min-height: 2vh;
+    display: flex;
+    width: 100%;
+}
+
+.FooterNav1 {
+    padding: 20px 30px;
+    margin: 10px 30px;
+    height: 50px;
+    width: 20%;
+}
+
+.Logo1 {
+    border-radius: 5px;
+    width: 200px;
+    z-index: 4;
+}
+
+.FooterNav2 h3, .FooterNav3 h3, .FooterNav4 h3 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: #ddcfbf;
+}
+
+.FooterNav2 {
+    text-align: justify;
+    margin: 10px 30px;
+    color: #d6c7b9;
+    padding: 10px;
+    width: 20%;
+}
+
+.FooterNav2 p {
+    color: #d6c7b9;
+    margin-top: 5px;
+}
+
+.Icons {
+    color: aliceblue;
+    padding: 0.2rem;
+    display: flex;
+}
+
+.FooterNav3 {
+    text-align: justify;
+    margin: 10px 30px;
+    color: #d6c7b9;
+    padding: 10px;
+    width: 20%;
+}
+
+.FooterNav3 p {
+    color: #d6c7b9;
+}
+
+.FooterNav4 {
+    text-align: center;
+    margin: 10px 30px;
+    padding-top: 10px;
+    width: 20%;
+}
+
+.FooterNav4 svg {
+    margin: -10px 10px 10px 10px;
+    padding: -10px 5px 5px 5px;
+    text-decoration: none;
+    border-radius: 10%;
+    font-size: 30px;
+    color: white;
+}
+
+.Icons{
+    display: flex;
+    margin: 10px;
+}
+
+.Icons p{
+    padding-left: 10px;
+}
+
+.FooterBottom {
+    background-color: #35373b;
+    text-align: center;
+    color: #d6c7b9;
+    font-size: 18px;
+    padding: 15px;
+    width: 100%;
+}
+
+.FooterBottom p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    color: #d6c7b9;
+}

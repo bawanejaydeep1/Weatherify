@@ -1,0 +1,161 @@
+body {
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation: slidein 100s;
+    
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation: slidein 100s;
+    background-size: cover;
+    color:#565d62;
+}
+
+@-webkit-keyframes slidein {
+    from {
+        background-position: top;
+        background-size: 3000px;
+    }
+
+    to {
+        background-position: -100px 0px;
+        background-size: 2750px;
+    }
+}
+
+.center {
+    background: rgba(75, 75, 250, 0.3);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 3px;
+    display: flex;
+    margin: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+@keyframes slidein {
+    from {
+        background-position: top;
+        background-size: 3000px;
+    }
+
+    to {
+        background-position: -100px 0px;
+        background-size: 2750px;
+    }
+}
+
+.weather-box {
+    box-shadow: 5px 7px 9px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s;
+    border: 2px solid #ccc;
+    margin-bottom: 150px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin-top: 50px;
+    padding: 20px;
+    margin: auto;
+}
+
+.weather-box.Sunny {
+    background: linear-gradient(#FFD700, #FFA500);
+}
+
+.weather-box.Clear {
+    background: linear-gradient(#FFD700, #FFA500);
+}
+
+.weather-box.Clouds {
+    background: #ccc;
+}
+
+.weather-box.Rain {
+    background: #00f;
+}
+
+.weather-box.Snow {
+    background: #fff;
+}
+
+.weather-box.Extreme {
+    background: #FF0000;
+}
+
+.weather-box.Atmosphere {
+    background: #800080;
+}
+
+.weather-box.Drizzle {
+    background: #008080;
+}
+
+.weather-box button {
+    background-color:#b9b0a1;
+    /* Green */
+    transition-duration: 0.4s;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.weather-box button:hover {
+    border: 2px solid #565d62;
+    background-color:#565d62;
+    color: whitesmoke;
+}
+
+.weather-box input[type="text"] {
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+.weather-box input[type="text"]::placeholder {
+    color: #ccc;
+}
+
+.error-message {
+    color: #5b2525;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.suggested-cities {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.suggested-cities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.suggested-cities li {
+    margin: 5px 0;
+}
+
+.Chart {
+    margin: -30px 90px 60px 90px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    overflow: scroll;
+    height: 80vh;
+    padding: 0px;
+    width: 90%;
+}

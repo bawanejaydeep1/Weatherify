@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@400;500;600&family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+.h{
+    color: rgb(35, 32, 32);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.faq-container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgb(94, 98, 110, 0.8);
+    border-radius: 5px;
+    overflow: scroll;
+    padding: 50px;
+    color: #ccc;
+    height: 50vh;
+}
+
+.faq-question {
+    margin-bottom: 20px;
+    color: bisque;
+}
+
+.faq-question strong {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    text-align: justify;
+    color: #53c058;
+    font-size: 20px;
+    display: block;
+}
+
+.faq-question p {
+    color: #ccc !important;
+    text-align: justify;
+}

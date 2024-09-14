@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@400;500;600&family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+.slider-container {
+    margin: 40px 100px 0px 100px;
+    max-width: 1300px;
+    overflow: hidden;
+}
+
+.slider-container h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(35, 32, 32);
+}
+
+.slider {
+    display: flex;
+    height:250px;
+    width:100%;
+}
+
+.slider-entry {
+    animation: slideIn 1s forwards, slideOut 1s 11s forwards;
+    background-color:rgb(94, 98, 110, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    text-justify: inter-word;
+    margin: 5px 5px 5px 0px;
+    text-align: justify;
+    border-radius: 5px;
+    padding: 20px;
+    color: #ccc;
+    flex: 1 0 0;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+.slider-entry:not(:first-child) {
+    margin-left: -1px;
+}
+
+.slider-entry:hover {
+    background-color: #f5f5f5;
+    color : black
+}

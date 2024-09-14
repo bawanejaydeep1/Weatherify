@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Libre+Baskerville&family=Libre+Franklin&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.Main{
+    width: 100%;
+}
+
+.common{
+    background: linear-gradient(to bottom right, #4a4f57, #bcb5ad);
+    box-shadow: 3px 3px 2px -2px gray;
+    margin: 50px 180px;
+    border-radius: 5px;
+    padding: 20px;
+    width: 75%;
+}
+
+.common h2{
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 15px 10px 15px;
+    color: whitesmoke;
+    font-size: 28px;
+}
+
+.common p{
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 15px 20px 15px;
+    justify-content: justify;
+    align-items: center;
+    text-align: justify;
+    color: #ddcfbf;
+    font-size: 18px;
+}
